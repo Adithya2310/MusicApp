@@ -1,14 +1,3 @@
-# Project Lyrics
-
-Develop an elegant React.js Music Application. 
-
-Check out the complete project requirements [here](https://docs.google.com/document/d/13PeFwRlPEhMw_HPyrIrInvQuKaVWnpNmcv-y3NA208s/edit?usp=sharing)
-
-# Contributing
-
-When contributing to this repository, please first discuss the change you wish to make via issue.
-Please note we have a [code of conduct](CODE_OF_CONDUCT.md), please follow it in all your interactions with the project.
-
 
 ## System Requirements
 
@@ -94,10 +83,6 @@ Please try to create bug reports that are:
 
 ## Pull Request
 
-There are 2 main work flows when dealing with pull requests:
-
-* Pull Request from a [forked repository](https://help.github.com/articles/fork-a-repo)
-* Pull Request from a branch within a repository
 
 Here we are going to focus on 2. Creating a Topical Branch:
 
@@ -133,4 +118,4 @@ Here we are going to focus on 2. Creating a Topical Branch:
 
 8. You have successfully created a pull request. Now wait for mentor approval. Once approved, you can merge the pull request.
 
-#
+
