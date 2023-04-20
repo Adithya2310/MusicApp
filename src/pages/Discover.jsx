@@ -1,13 +1,19 @@
 import { Error,Loader,SongCard } from "../components";
 import { genres } from "../assets/constants";
 import { useGetTopChartsQuery } from "../redux/features/services/Shazamdojo";
+import { useSelector } from "react-redux";
 
 
 
 const Discover = () => {
 
-    const {data,isFetching,isError}=useGetTopChartsQuery();
+
+    const { activeSong, isPlaying }=useSelector((state)=>state.player);
+
+    const { data, isFetching, isError }=useGetTopChartsQuery();
     console.log(data,isFetching,isError);
+
+    
 
     if(isFetching){
         return (
@@ -33,7 +39,10 @@ const Discover = () => {
                 return <SongCard 
                 key={song.key}
                 song={song}
-                i={index} />
+                i={index}
+                data={data}
+                activeSong={activeSong}
+                isPlaying={isPlaying} />
             })}
         </div>
     </div>
